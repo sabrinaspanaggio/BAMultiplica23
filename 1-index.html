@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina-intersolutions</title>
+    <link rel="stylesheet" href="./1-style.css">
+ 
+</head>
+<body>
+    <div class="prueba1">
+    <header id="main-header" data-height-onload="80" data-fixed-height-onload="0" style="top: 0px;" class="main">
+        <div class="container_menu">
+            <nav> 
+                    <div class="logo_container">
+                        <img src="http://intersolutionssa.com/wp-content/uploads/2019/06/logo-sin-fondo-Intersolutions.png" width="250px" alt="Intersolutions" id="logo">
+                    </div>
+                <div class="conteiner-menu">
+                
+                <ul id="top-menu" class="nav"><li id="menu" class="menu"> Inicio</li>
+                <li id="top-menu" class="nav-nuestros-productos">Nuestros Productos</li>
+                    <ul class="sub-menu">
+                        <li id="sub-menu-" class="consumo-humano">Consumo Humano</li>
+                            <ul class="sub-menu-1">
+                              <li id="sub-menu-1" class="Raya">Raya</li>
+                              <li id="sub-menu-1" class="Calamar">Calamar</li>
+                              <li id="sub-menu-1" class="Langostino">Langostino</li>
+                              <li id="sub-menu-1" class="Sardina Congelada">Sardina Congelada</li>
+                              <li id="sub-menu-1" class="Aceite de Pescado">Aceite de Pescado</li>
+                            </ul>
+                        <li id="sub-menu" class="consumo-animal"> Consumo Animal</li>
+                            <ul class="sub-menu2">
+                             <li id="sub-menu2" class="Harinas de Pescado">Harinas de Pescado</li>                              
+                                <ul class="sub-menu-2">
+                                    <li id="sub-menu-2" class="Harina Premium">Harina Premium</li>
+                                    <li id="sub-menu-2" class="Harina Standard">Harina Standard</li>
+                                    <li id="sub-menu-2" class="Harina de Hígado">Harina de Hígado</li> 
+                                </ul>                         
+                             <li id="sub-menu2" class="Aceite de Pescado">Aceite de Pescado</li>
+                             <li id="sub-menu2" class="Núcleo Proteico">Núcleo Proteico</li>
+                            </ul>
+                    </ul>
+                    </li>
+                <li id="top-menu" class="menu-nosotros">Nosotros</li>
+                <li id="top-menu" class="menu-contacto">Contacto</li>
+                </ul>
+                </div>						
+            </nav> 
+        </div>               
+    </header>
+    </div>
+    <br>
+    <br>    
+    <div class="container_imagenes-scroll">
+        <div class="container_imagenes-scroll">
+        <img src="./calamar-fresco.jpg" width="50%" alt="imgscroll" id="scroll"> 
+        <img src="./rayos-luz-solar-brillando-mar-shcool-peces-agua-vi.jpg" width="50%" alt="fishsea">
+                /*acá van imagenes de scroll horizontal*/
+    </div>
+    <br>
+    <br>
+
+    <div class="conteiner_texto_img">
+        <h2 id="núcleo_proteico">Núcleo Proteico</h2>
+        <br>
+        <br>
+        <p class="parrafo1">Nuestro Núcleo de Raya posee Condrotín + Glucosamina, dos compuestos esenciales para el bienestar animal.</p>
+        <button type="submit">Quiero saber más</button>
+        <br>
+        <img src="./nucleo-proteico-1.jpg" width="30%" alt="img trading" id="trading"> 
+          
+    </div>
+    <br>
+    <br>
+    <div>
+        <h2 id="productos_principales">Productos Principales</h2>  
+        <br>
+        <br> 
+         <div class="conteiner_img">
+            <img src="./Harina de Pescado.jpg" width="30%" alt="img trading" id="trading">
+            <br>
+            <button type="submit-1">Harina de Pescado</button>
+         </div>
+    
+        <br>
+        <br>
+
+         <div class="conteiner_img">
+            <img src="./aceite_pescado.png" width="30%" alt="img trading" id="trading">
+            <br>
+            <button type="submit-1">Aceite de Pescado</button>
+         </div>
+    </div>     
+    <br>
+    <br>
+    <form action="procesar" method="post"></form>
+        <fieldset>
+            <legend>Informacion de Contacto</legend>
+            <br>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+              
+            <label for="mail"> Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <br>
+    
+            <label for="comentarios">comentarios</label>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="4"></textarea>
+            <br>
+            <br>
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+
+</body>
+</html>
