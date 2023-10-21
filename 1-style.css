@@ -74,8 +74,6 @@ ul {
 }
 
 
-
-
 #titulo1{
     color: rgb(23, 115, 235);
     font-weight: bold;
@@ -87,10 +85,20 @@ ul {
     text-align: left;
 }
 
+@media (max-width: 600px) {
+    header {
+        text-align: left;
+    }
+    nav ul {
+        text-align: center;
+    }
+    nav li{
+        display: block;
+        margin-bottom: 10px;
+    }
 
-
-
-.conteiner_img {
-    display: flex;
-    flex-direction: column;
+    .conteiner_texto_img {
+        padding: 10px;
+        font-size: 40;
+    } 
 }
